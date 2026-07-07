@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link-in-Bio | Prodi IKN SV IPB</title>
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #fafafa;
+            color: #333333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 580px;
+            text-align: center;
+        }
+
+        /* Profile Section */
+        .profile-img {
+            width: 96px;
+            height: 96px;
+            border-radius: 50%;
+            background-color: #60E5EF;
+            margin-bottom: 16px;
+            border: 3px solid #60E5EF;
+            object-fit: cover;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        .prodi-title {
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 1.4;
+            color: #1a1a1a;
+            margin-bottom: 6px;
+            padding: 0 10px;
+        }
+
+        .prodi-subtitle {
+            font-size: 13px;
+            font-weight: 500;
+            color: #666666;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            margin-bottom: 32px;
+        }
+
+        /* Links Section */
+        .links-wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            width: 100%;
+        }
+
+        .link-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #ffffff;
+            color: #1a1a1a;
+            text-decoration: none;
+            padding: 16px 20px;
+            border-radius: 12px;
+            font-size: 15px;
+            font-weight: 600;
+            border: 2px solid #e0e0e0;
+            transition: all 0.25s ease;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02);
+        }
+
+        .link-btn:hover {
+            background-color: #60E5EF;
+            border-color: #60E5EF;
+            color: #000000;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(96, 229, 239, 0.3);
+        }
+
+        .link-btn:active {
+            transform: translateY(0);
+        }
+
+        /* Section Title inside Links */
+        .section-divider {
+            font-size: 12px;
+            font-weight: 700;
+            color: #999999;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin: 12px 0 4px 0;
+            text-align: left;
+            padding-left: 4px;
+        }
+
+        /* Footer */
+        .footer {
+            margin-top: 48px;
+            font-size: 12px;
+            color: #aaaaaa;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Foto Profil https://drive.google.com/file/d/1BKcETxvKrMQzOa1hGhOMp5mwgzgSGhsO/view?usp=sharing -->
+        <img class="profile-img" src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=200&auto=format&fit=crop" alt="Logo Prodi IKN">
+        
+        <!-- Identitas Prodi -->
+        <h1 class="prodi-title">Teknologi dan Manajemen Pembenihan Ikan</h1>
+        <div class="prodi-subtitle">Sekolah Vokasi, IPB University</div>
+
+        <!-- Kumpulan Tombol Link -->
+        <div class="links-wrapper">
+            
+            <div class="section-divider">Output & Administrasi</div>
+            
+            <!-- Tombol 1 -->
+            <a href="https://drive.google.com/drive/folders/1N1iUuz7IVg9EKbSUCsGqgRelcDKzAWJR?usp=sharing" target="_blank" class="link-btn">
+                 Instagram Official @iknsvofficial
+            </a>
+
+            <!-- Tombol 2 -->
+            <a href="https://drive.google.com/drive/folders/1dvXtuAGT7jnnlCePCEh_zVNK4Uv1C9Bk?usp=drive_link" target="_blank" class="link-btn">
+                 Logo
+            </a>
+
+            <div class="section-divider">Informasi Mahasiswa</div>
+
+            <!-- Tombol 3 -->
+            <a href="https://drive.google.com/drive/folders/1ODbe_brG4FAUtwW2u-hgV1jo5z1rVyX2?usp=sharing" target="_blank" class="link-btn">
+                 Youtube
+            </a>
+
+            <!-- Tombol 4 -->
+            <a href="https://drive.google.com/drive/folders/1a0xdP3_G0DTlN9APwLV6f_qX70zQev9q?usp=sharing" target="_blank" class="link-btn">
+                 Timeline & Content Strategy
+            </a>
+
+            <!-- Tombol 5 -->
+            <a href="https://drive.google.com/drive/folders/1lCQAC23C_7dXUwsJzrKJFEtbkdWIJ0Qj?usp=sharing" target="_blank" class="link-btn">
+                 Footage
+            </a>
+
+        </div>
+
+        <!-- Footer Kecil -->
+        <div class="footer">
+            &copy; Teknologi dan Manajemen Pembenihan Ikan, Sekolah Vokasi, IPB University. All Rights Reserved.
+        </div>
+    </div>
+
+</body>
+</html>
